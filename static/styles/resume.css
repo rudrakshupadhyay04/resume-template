@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rsm-cntnr {
+    padding: 0px 5px;
+}
+
+.rsm-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-bottom: 3px;
+}
+
+.rsm-sub-title {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.rsm-mn-cntnr {
+    margin-top: 20px;
+}
+
+.rsm-sctn .sctn-hd {
+    font-size: 15px;
+}
+
+.cstm-hr {
+    height: 1px;
+    background-color: #111111a2;
+}
+
+.indi-sctn-cntnr {
+    margin-top: 5px;
+}
+
+.sctn-cntnt {
+    font-size: 14px;
+}
+
+.sctn-cntnt .sub-sctn:not(:first-of-type) {
+    margin-top: 15px;
+}
+
+.sub-sctn-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-course {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wt-500 {
+    font-weight: 500;
+}
+
+.exp-dscrptn {
+    margin-top: 5px;
+}
+
+.exp-dscrptn ul,
+.indi-addtnl-pnts-cntnt-cntnr ul {
+    margin: 0;
+    padding: 0px 20px;
+    list-style-type: disc;
+    padding-right: 0px;
+}
+
+li span.right {
+    float: right;
+    clear: both;
+}
